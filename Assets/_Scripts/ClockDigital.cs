@@ -5,7 +5,7 @@ using TMPro;
 
 public class ClockDigital : MonoBehaviour
 {
-    private TMP_Text textClock;
+    private TextMeshProUGUI textClock;
 
     void Awake()
     {
