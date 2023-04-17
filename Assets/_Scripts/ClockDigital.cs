@@ -1,5 +1,5 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -7,9 +7,9 @@ public class ClockDigital : MonoBehaviour
 {
     private TextMeshProUGUI textClock;
 
-    void Awake()
+       void Awake()
     {
-        textClock = GetComponent<Text>();
+        textClock = GetComponent<TextMeshProUGUI>();
     }
 
     void Update()
